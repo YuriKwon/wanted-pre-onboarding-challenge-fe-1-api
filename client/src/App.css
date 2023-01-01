@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: 'Cafe24Ssurround';
 }
 
 .App-logo {
@@ -35,4 +36,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* 폰트 */
+@font-face {
+  font-family: 'Cafe24Ssurround';
+  src: url('./fonts/Cafe24Ssurround.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cafe24Ssurround_Air';
+  src: url('./fonts/Cafe24SsurroundAir.ttf');
+  font-weight: normal;
+  font-style: normal;
 }
